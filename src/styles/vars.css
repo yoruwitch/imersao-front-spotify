@@ -1,4 +1,13 @@
 :root {
     /*-----Font----*/
     --font-dm-sans: "DM Sans", sans-serif;
+
+    /* ---------Colors----------- */
+    --dark-orange: #e45b00;
+    --light-orange: #e57b34;
+    --dark-pink: #a30262;
+
+    /* ----Border-radious---- */
+    --light-round: 8px;
+    --round: 20px
 }

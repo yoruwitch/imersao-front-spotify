@@ -1,5 +1,5 @@
 body {
-    background-color: #a30262;
+    background-color: var(--dark-pink);
     font-family: var(--font-dm-sans);
 }
 
@@ -13,13 +13,13 @@ body {
 }
 
 .sidebar__navigation {
-    background-color: #e57b34;
-    border-radius: 8px;
+    background-color: var(--light-orange);
+    border-radius: var(--light-round);
     padding: 16px 0 0 16px;
 }
 
 .logo {
-    background-color: #e57b34;
+    background-color: var(--light-orange);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 0px;
@@ -56,8 +56,8 @@ body {
 /*--------------- Library section ----------------*/
 
 .library {
-    background-color: #e57b34;
-    border-radius: 8px;
+    background-color: var(--light-orange);
+    border-radius: var(--light-round);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -97,7 +97,7 @@ body {
 }
 
 .section-playlist {
-    background-color: #e45b00;
+    background-color: var(--dark-orange);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -133,7 +133,7 @@ body {
     justify-content: center;
     background-color: #fff;
     color: #000;
-    border-radius: 20px;
+    border-radius: var(--round);
     font-size: 12px;
     font-weight: 700;
     border: 0;
@@ -157,7 +157,7 @@ body {
 
 .languages .languages__button {
     background-color: transparent;
-    border: 1px solid #878787;
+    border: 1px solid #fff;
     color: #fff;
     cursor: pointer;
     align-items: center;
@@ -165,7 +165,7 @@ body {
     width: 170px;
     margin: 8px;
     padding: 8px;
-    border-radius: 20px;
+    border-radius: var(--round);
 }
 
 /*-------------------Footer-----------------*/
@@ -175,7 +175,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #d162a4, #d52d00);
+    background: linear-gradient(to right, #d162a4, var(--dark-orange));
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -208,27 +208,3 @@ body {
     cursor: pointer;
     flex-shrink: 0;
 }
-
-/* .library {
-    background: #121212;
-    margin-top: 20px;
-    border-radius: 8px;
-    color: #b3b3b3;
-    display: flex;
-    width: 300px;
-    padding: 16px 0 0 16px;
-    height: 300px;
-    flex-direction: column;
-}
-.library a {
-    text-decoration: none;
-    color: #b3b3b3;
-}
-
-.library .create__playlist {
-    background: #242424;
-    padding: 16px 0 0 16px;
-    border-radius: 8px;
-    margin-top: 20px;
-    color: #fff;
-} */
