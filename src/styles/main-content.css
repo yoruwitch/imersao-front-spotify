@@ -90,3 +90,31 @@
     border-radius: 40px;
     border: none;
 }
+
+/* -------------- Playlists section -------------- */
+
+.playlists-container {
+    background-color: var(--light-orange);
+    margin: 0 10px 0 10px;
+    border-radius: var(--light-round);
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.playlists {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 0 20px ;
+}
+
+.playlists .playlists__title,.playlists .playlists__subtitle {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+} 
+
+.playlists .playlists__subtitle {
+  margin-top: 50px;
+  font-size: 24px;
+}
