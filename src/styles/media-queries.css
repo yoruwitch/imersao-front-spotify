@@ -1,5 +1,63 @@
-@media screen and (max-width: 1015px) {
-  .cards-container {
-    
-  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sidebar {
+        position: relative;
+        width: 88%;
+    }
+    .main-container {
+        margin-left: 0;
+    }
+    .header__navigation {
+        width: 100%;
+    }
+    .navigation img {
+        width: 20px;
+    }
+    .header__navigation .navigation .arrow-left {
+        margin-right: 0.5rem;
+    }
+    .navigation .arrow-left,
+    .navigation .arrow-right {
+        width: 20px;
+        height: 20px;
+    }
+
+    .header__search input {
+        max-width: 0px;
+    }
+
+    .header__login {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__login .subscribe {
+        font-size: 14px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Your styles for small devices */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Your styles for medium devices */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Your styles for large devices */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Your styles for extra large devices */
 }
