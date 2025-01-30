@@ -1,6 +1,8 @@
 body {
     background-color: var(--dark-pink);
     font-family: var(--font-dm-sans);
+    height: 100%;
+    overflow: hidden;
 }
 
 .sidebar {

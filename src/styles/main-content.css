@@ -97,24 +97,56 @@
     background-color: var(--light-orange);
     margin: 0 10px 0 10px;
     border-radius: var(--light-round);
-    height: 350px;
+    height: 70%;
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .playlists {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 20px 0 20px ;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 0 20px;
 }
 
-.playlists .playlists__title,.playlists .playlists__subtitle {
-  color: #fff;
-  font-size: 32px;
-  font-weight: 600;
-} 
+.playlists .playlists__title,
+.playlists .playlists__subtitle {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+}
 
 .playlists .playlists__subtitle {
-  margin-top: 50px;
-  font-size: 24px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+/* -------- Cards section ----------- */
+.cards-container {
+    padding: 16px;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    max-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dark-orange) #F1F1F1;
+    
+}
+
+.cards-container img {
+    width: calc(25% - 10px);
+    width: 240px;
+    border-radius: var(--light-round);
+    margin-top: 10px;
+}
+
+.card {
+    margin: 10px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
